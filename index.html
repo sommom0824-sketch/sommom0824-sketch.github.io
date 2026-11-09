@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light">
+  <meta name="description" content="Independent TRC20 display-test token on TRON Mainnet. Not issued, backed, or redeemable by Tether; no USD peg or market price is claimed.">
+  <title>Independent TRC20 Display Test | Token Disclosure</title>
+  <style>
+    :root { font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; color: #1e2831; background: #f2f4f7; }
+    * { box-sizing: border-box; }
+    body { margin: 0; }
+    a { color: #2448a0; text-underline-offset: 3px; }
+    a:focus-visible { outline: 3px solid #f19a38; outline-offset: 3px; }
+    .shell { width: min(100% - 2rem, 880px); margin: 0 auto; }
+    header { border-bottom: 1px solid #dbe0e6; background: #fff; }
+    .head { display: flex; align-items: center; justify-content: space-between; gap: 1rem; padding: 1.1rem 0; }
+    .brand { font-size: .85rem; font-weight: 800; letter-spacing: .1em; text-transform: uppercase; color: #364250; }
+    .network { border: 1px solid #d8dfe7; border-radius: 99px; padding: .35rem .7rem; font-size: .77rem; color: #4c5968; white-space: nowrap; }
+    main { padding: 3.1rem 0 4rem; }
+    .eyebrow { margin: 0 0 .7rem; color: #826019; font-weight: 800; font-size: .8rem; letter-spacing: .12em; text-transform: uppercase; }
+    h1 { margin: 0; max-width: 760px; font-size: clamp(2rem, 5vw, 3.25rem); line-height: 1.1; letter-spacing: -.035em; }
+    .lead { margin: 1rem 0 1.5rem; max-width: 660px; color: #536171; font-size: 1.06rem; line-height: 1.6; }
+    .warning { border: 1px solid #e3b35c; border-left: 5px solid #d6841c; background: #fff9ed; border-radius: .55rem; padding: 1.1rem 1.25rem; line-height: 1.6; }
+    .warning strong { display: block; margin-bottom: .2rem; font-size: 1.02rem; }
+    .warning p { margin: 0; }
+    section { margin-top: 2.5rem; }
+    h2 { margin: 0 0 .85rem; font-size: 1.3rem; letter-spacing: -.02em; }
+    .card { background: #fff; border: 1px solid #dde3e9; border-radius: .75rem; box-shadow: 0 6px 24px #1d324a0b; }
+    dl { margin: 0; }
+    .row { display: grid; grid-template-columns: 190px minmax(0, 1fr); gap: 1rem; padding: .95rem 1.2rem; border-bottom: 1px solid #edf0f3; }
+    .row:last-child { border-bottom: 0; }
+    dt { color: #586676; font-size: .88rem; }
+    dd { margin: 0; font-weight: 600; overflow-wrap: anywhere; }
+    code { font: .92em ui-monospace, SFMono-Regular, Consolas, "Liberation Mono", monospace; }
+    .note { color: #586676; line-height: 1.65; }
+    .links { display: flex; flex-wrap: wrap; gap: .7rem; }
+    .links a { display: inline-block; padding: .7rem 1rem; background: #fff; border: 1px solid #cdd6e0; border-radius: .5rem; font-weight: 650; text-decoration: none; }
+    .links a:hover { background: #e8eefc; }
+    .zh { border-top: 1px solid #dbe0e6; padding-top: 2rem; }
+    footer { border-top: 1px solid #dbe0e6; padding: 1.2rem 0 2rem; color: #657180; font-size: .82rem; line-height: 1.5; }
+    @media (max-width: 620px) { main { padding-top: 2.1rem; } .row { grid-template-columns: 1fr; gap: .25rem; } .head { align-items: flex-start; } }
+  </style>
+</head>
+<body>
+  <header><div class="shell head"><div class="brand">Independent TRC20 Display Test</div><div class="network">TRON Mainnet · public disclosure</div></div></header>
+  <main class="shell">
+    <p class="eyebrow">Token identity and risk disclosure</p>
+    <h1>An independent wallet display experiment</h1>
+    <p class="lead">This page identifies a single TRC20 contract deployed on TRON Mainnet and documents what it is. The on-chain name and symbol are both <strong>USDT</strong>, but the contract is an independent test token.</p>
+    <div class="warning" role="note">
+      <strong>Not Tether USDT</strong>
+      <p>This token is not issued, affiliated with, backed, or redeemable by Tether. It has no USD peg, guaranteed price, redemption right, or claim to the official Tether USDT logo. Do not treat it as genuine USDT or as a payment or investment asset.</p>
+    </div>
+
+    <section aria-labelledby="facts"><h2 id="facts">Verified deployment facts</h2>
+      <div class="card"><dl>
+        <div class="row"><dt>Network</dt><dd>TRON Mainnet</dd></div>
+        <div class="row"><dt>On-chain name / symbol</dt><dd>USDT / USDT (independent test token)</dd></div>
+        <div class="row"><dt>Token standard / decimals</dt><dd>TRC20 / 6</dd></div>
+        <div class="row"><dt>Fixed initial supply</dt><dd>10,000,000 tokens</dd></div>
+        <div class="row"><dt>Contract address</dt><dd><code>TKxspQ6bugQ7XVrvqga2REnoyZrt2AyATK</code></dd></div>
+        <div class="row"><dt>Issuer and initial holder</dt><dd><code>TMvg9oSG2h6VvixQxFs63Y85Z42Bfszbk5</code></dd></div>
+        <div class="row"><dt>Deployment transaction</dt><dd><code>7fc49f23e61cbc8db29bacca272318810501f534adf69742b9e6903422ccd37d</code></dd></div>
+      </dl></div>
+      <p class="note">At deployment, the full fixed supply was minted to the initial holder. Current holdings can change if the holder transfers tokens. Check the blockchain for the latest state.</p>
+      <div class="links"><a href="https://tronscan.org/#/token20/TKxspQ6bugQ7XVrvqga2REnoyZrt2AyATK" rel="noopener noreferrer">View token on TRONSCAN ↗</a><a href="https://tronscan.org/#/transaction/7fc49f23e61cbc8db29bacca272318810501f534adf69742b9e6903422ccd37d" rel="noopener noreferrer">View deployment transaction ↗</a></div>
+    </section>
+
+    <section aria-labelledby="docs-title"><h2 id="docs-title">Project materials</h2><div class="links"><a href="project-note.html">Project note and risk disclosure ↗</a><a href="logo.png">Distinctive TEST logo ↗</a></div><p class="note">The TEST logo is original project artwork. It does not represent Tether, TRONSCAN or TronLink.</p></section>
+    <section class="zh" lang="zh-CN" aria-labelledby="zh-title"><h2 id="zh-title">中文说明</h2>
+      <p class="note">本页面介绍一枚独立部署的 TRON 主网 TRC20 钱包显示测试代币。虽然其链上名称与符号均为 USDT，但它不是 Tether 发行、授权或担保的官方 USDT，也不能按美元赎回。它没有美元锚定、保证价格或官方 USDT 图标。请始终以合约地址区分代币。</p>
+    </section>
+  </main>
+  <footer><div class="shell">Independent TRC20 Display Test · Factual contract disclosure · This site does not claim endorsement by TRONSCAN, TronLink, or Tether.</div></footer>
+</body>
+</html>
